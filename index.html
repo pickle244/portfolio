@@ -8,43 +8,52 @@
   </head>
   <body>
     <main>
-      <h1>Jeffrey's Porfolio</h1>
-      <hr>
-      <section>
-        <h2>About</h2>
-        <p>Hello! My name is Jeffrey Li and I am a junior studying computer
-          science at Tufts University.
-        </p>
-      </section>
-      <section>
-        <h2>Projects</h2>
-      </section>
-      <section>
-        <h2>Contact</h2>
-        <form method="POST">
-          <fieldset>
-            <legend>Please reach out with any comments or inquiries!</legend>
-            <label for="name">
-              <input id ="name" placeholder="name" required />
-            </label>
-            <label for="email">
-              <input id ="email" placeholder="email" required />
-            </label>
-            <label for="message">
-              <textarea id ="message" placeholder="message" required></textarea>
-            </label>
-          </fieldset>
-        </form>
-      </section>
-      <hr>
+      <div class="nav-bar">
+        Jeffrey Li
+        <a href="index.html">Home</a> / 
+        <a href="projects.html">Projects</a> / 
+        <a href="contact.html">Contact</a>
+      </div>
+      <h1>Front-End Developer</h1>
+      <div class="content-box">
+        <div class="col1">
+          <h2>Projects</h2>
+          <p>Webapp</p>
+          <p>Image Compressor/Decompressor</p>
+          <p>Emulator</p>
+          <p>Grep-like Program</p>
+        </div>
+        <div class="col2">
+          <h2>Experience</h2>
+          <h3>Pear Deck - Math Tutor</h3>
+          <ul>
+            <li>Tutored 80+ students across America, over 90% rated their
+              session 5/5 stars due to my expert and patient teaching
+            </li>
+            <li>
+              Tutor basic math, algebra, geometry, trigonometry, calculus,
+              linear algebra, statistics
+            </li>
+          </ul>
+        </div>
+        <div class="col3">
+          <h2>Education</h2>
+          <p>Tufts University, B.S in Computer Science - 3.63/4.0</p>
+          <p>Courses:</p>
+          <ul>
+            <li>Data Structures</li>
+            <li>Algorithms</li>
+            <li>Machine Structure</li>
+            <li>Discrete Math</li>
+            <li>Calculus</li>
+            <li>Statistics</li>
+          </ul>
+        </div>
+      </div>
     </main>
     <footer>
-      <p>
-        <a href="https://github.com/pickle244" target="_blank">Github</a>
-      </p>
-      <p>
-        <a href="jeffrey.li@tufts.edu" target="_blank">Email</a>
-      </p>
+      <a href="https://github.com/pickle244" target="_blank">Github</a>
+      <a href="mailto:jeffrey.li@tufts.edu" target="_blank">Email</a>
     </footer>
   </body>
 </html>
