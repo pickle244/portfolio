@@ -2,6 +2,8 @@ body {
   background-color: #222222;
   color: white;
   font-family: sans-serif;
+  height: 100%;
+  min-height: 100%;
 }
 
 a {
@@ -36,13 +38,27 @@ label {
 
 .nav-bar {
   width: 100%;
-  display: block;
-}
-
-.nav-bar h2, p {
-  display: inline;
+  display: flex;
 }
 
 .nav-bar h2 {
-  margin-right: 75%;
+  margin-right: auto;
+}
+
+.nav-bar p {
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+}
+
+.copyright {
+  text-align: center;
 }
