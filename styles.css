@@ -6,6 +6,7 @@ body {
 
 a {
   color: white;
+  text-decoration: none;
 }
 
 a:hover {
@@ -31,4 +32,17 @@ label {
   display: flex;
   /* border: 1px solid white; */
   width: 100%;
+}
+
+.nav-bar {
+  width: 100%;
+  display: block;
+}
+
+.nav-bar h2, p {
+  display: inline;
+}
+
+.nav-bar h2 {
+  margin-right: 75%;
 }
