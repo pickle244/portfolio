@@ -32,7 +32,6 @@ label {
 
 .content-box {
   display: flex;
-  /* border: 1px solid white; */
   width: 100%;
 }
 
@@ -55,6 +54,7 @@ h1 {
 }
 
 .footer-links {
+  margin-top: 20px;
   display: flex;
   justify-content: center;
 }
