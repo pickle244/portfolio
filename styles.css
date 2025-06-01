@@ -62,3 +62,20 @@ h1 {
 .copyright {
   text-align: center;
 }
+
+.dates {
+  width: 45%;
+}
+
+.contanier {
+  content: '';
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border: 4px solid #FF9F55;
+  border-radius: 50%;
+}
+
+.changelog {
+  display: flex;
+}
